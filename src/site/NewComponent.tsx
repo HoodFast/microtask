@@ -14,7 +14,7 @@ export const NewComponent = (props: propsCarsType) => {
             }
             {props.cars.map((s,index)=>{
                 return <li key={index}>
-                    <div> {index+1}</div>
+                    <div> {index+1}.</div>
                     <span>{s.manufacturer}</span>
                     <span>-- model: {s.model}</span>
                 </li>
